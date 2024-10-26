@@ -61,6 +61,17 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          {/* Desktop CV Download Button */}
+          <li>
+            <a
+              href="/MY_CV.pdf"
+              download="My_CV.pdf"
+              className="bg-secondary text-white py-2 px-4 rounded-lg hover:bg-secondary-dark transition"
+            >
+              Download CV
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +102,17 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              {/* Mobile CV Download Button */}
+              <li>
+                <a
+                  href="/cv.pdf"
+                  download="My_CV.pdf"
+                  className="font-poppins font-medium text-[16px] text-white bg-secondary py-2 px-4 rounded-lg mt-4 hover:bg-secondary-dark transition"
+                >
+                  Download CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>
