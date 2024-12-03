@@ -7,6 +7,19 @@
      Build this project step by step with our detailed tutorial with instruction in insta id c_l_me_god 
     </div>
 </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kishor | Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
 
 ## <a name="introduction">🤖 Introduction</a>
 
